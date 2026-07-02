@@ -33,18 +33,17 @@
   <p>drag to rotate · scroll to zoom · pinch on mobile</p>
 </header>
 <div class="wrap">
-  <model-viewer id="mv" src="plate.glb" alt="Voltcloak character"
+  <model-viewer id="mv" src="split.glb" alt="Voltcloak character"
     camera-controls auto-rotate auto-rotate-delay="0" rotation-per-second="18deg"
     shadow-intensity="0.55" exposure="1.0" environment-image="neutral" tone-mapping="neutral"
     camera-orbit="0deg 85deg 2.4m" min-camera-orbit="auto 0deg auto" touch-action="pan-y">
   </model-viewer>
-  <div class="hint">Yüz Plakası = yeni yöntem (boyun bozulmadan)</div>
+  <div class="hint">Split = fotoğraf-kesme yöntemi (tek parça, iyi yüz)</div>
   <div class="bar">
-    <button data-src="plate.glb" class="active">★ Yüz Plakası</button>
+    <button data-src="split.glb" class="active">★ Split (yeni)</button>
+    <button data-src="plate.glb">Yüz Plakası</button>
     <button data-src="h2face.glb">Kafa Merge</button>
     <button data-src="v1.glb">V1</button>
-    <button data-src="v2.glb">V2</button>
-    <button data-src="v3.glb">V3</button>
   </div>
 </div>
 <script>
